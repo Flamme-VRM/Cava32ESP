@@ -2,6 +2,9 @@
 
 **CavaESP32** is a Python based audio processing tool that captures your Windows system audio (what you hear), analyzes it in real-time, and sends frequency data to an ESP32 or Arduino microcontroller via USB Serial. This allows you to build physical audio visualizers (e.g., LED strips) that react to music, games, or videos.
 
+## Demo
+![Demo](demo.gif)
+
 ## Features
 
 *   **System Audio Capture:** Uses `pyaudiowpatch` (WASAPI Loopback) to capture high-quality audio directly from your output device (no microphone needed).
